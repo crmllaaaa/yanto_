@@ -30,10 +30,10 @@
 			<p>First Name: <?php echo $getEmployeeByID['first_name']; ?></p>
 			<p>Last Name: <?php echo $getEmployeeByID['last_name']; ?></p>
 			<p>Gender: <?php echo $getEmployeeByID['gender']; ?></p>
-			<p>Year Level: <?php echo $getEmployeeByID['birthdate']; ?></p>
-			<p>Section: <?php echo $getEmployeeByID['contact_number']; ?></p>
-			<p>Adviser: <?php echo $getEmployeeByID['email']; ?></p>
-			<p>Religion: <?php echo $getEmployeeByID['profession']; ?></p>
+			<p>Birthdate: <?php echo $getEmployeeByID['birthdate']; ?></p>
+			<p>Contact Number: <?php echo $getEmployeeByID['contact_number']; ?></p>
+			<p>Email: <?php echo $getEmployeeByID['email']; ?></p>
+			<p>Profession: <?php echo $getEmployeeByID['profession']; ?></p>
 			<input type="submit" name="deleteStudentBtn" value="Delete">
 		</div>
 	</form>
